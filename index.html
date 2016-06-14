@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css"></link>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/picker.js"></script>
+        <meta charset="UTF-8"> 
+    </head>
+    <body>
+        <div id="inputContainer">
+            <div>Input choices:</div>
+            <div><textarea id="input" resizeable="false"></textarea></div>
+            <div><label><input type="checkbox" id="demarcatorCheck" />Demarcator:</label> <input type="text" id="demarcator" /> (If unchecked will just use newline)</div>
+            <div><button id="inputDoIt">do it.</button></div>
+        </div>
+        <div id="battleContainer">
+            <div>PICK ONE</div>
+            <button id="b1"></button>
+            <button id="b2"></button>
+        </div>
+        <div id="resultContainer">
+            <div id="result"></div>
+            <button id="again">again,</button>
+            <div id="rest"></div>
+        </div>
+    </body>
+</html>

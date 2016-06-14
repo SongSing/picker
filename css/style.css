@@ -1,0 +1,79 @@
+html, body
+{
+    padding:8px;
+    margin:0px;
+    font-family:Helvetica;
+}
+
+#battleContainer, #resultContainer
+{
+    display:none;
+}
+
+#inputContainer
+{
+    padding:0px;
+    margin:0px;
+}
+
+#inputContainer > div
+{
+    margin-bottom:4px;
+}
+
+button, input, textarea
+{
+    border:1px solid #aaaaaa;
+    background-color:white;
+    padding:2px;
+}
+
+button:hover, input:hover, textarea:hover, input:focus, textarea:focus
+{
+    border-color:#9999ff;
+    color:#5555ff;
+}
+
+button:active
+{
+    border-color:#0000ff;
+    color:#0000aa;
+    background-color:#eeeeee;
+}
+
+#inputDoIt
+{
+    width:500px;
+    height:32px;
+}
+
+#input
+{
+    height:500px;
+    width:500px;
+    box-sizing:border-box;
+}
+
+#battleContainer, #resultContainer
+{
+    text-align:center;
+    padding:8px;
+}
+
+#battleContainer > div, #result
+{
+    font-size:32px;
+    margin-bottom:16px;
+}
+
+#b1, #b2
+{
+    font-size:24px;
+    padding:8px;
+    margin:0px 16px;
+}
+
+#again
+{
+    margin-bottom:8px;
+}
